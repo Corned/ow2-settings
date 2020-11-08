@@ -1,0 +1,85 @@
+/* Option */
+.option {
+  height: 40px;
+  min-height: 40px;
+  margin-bottom: 3px;
+
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.option__input {
+  height: 100%;
+}
+
+.option__input > * {
+  background: rgba(0, 0, 0, 0.13);
+  padding: 0 10px 0 0;
+}
+
+.option__title {
+  background: rgba(0, 0, 0, 0.13);
+  height: 100%;
+  flex-grow: 2;
+  display: flex;
+}
+
+.option__title > p {
+  font-family: "config-regular";
+  font-size: 16px;
+  font-weight: 900;
+  margin: auto 0;
+  padding: 0 0 0 20px;
+}
+
+/* Option Group */
+.option-group {
+  margin-bottom: 30px;
+}
+
+.option-group__title {
+  margin-bottom: 10px;
+}
+
+/* Option Intend */
+.option-intend {
+  padding: 0 0 0 40px;
+}
+
+
+/* Option Collapse */
+.option-collapse {
+  padding: 0 40px;
+}
+
+.option-collapse__controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.option-collapse__toggle {
+  margin-left: 3px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.option-collapse__title {
+  flex-grow: 2;
+}
+
+.option-collapse__toggle > .option__title {
+  font-family: "config-bold";
+  font-size: 30px;
+}
+
+.option-collapse__toggle:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+

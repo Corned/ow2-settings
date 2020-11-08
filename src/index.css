@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "overwatch";
+  src: local("koverwatch"), url(./assets/fonts/koverwatch.ttf) format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "overwatch-italic";
+  src: local("bignoodletoo"), url(./assets/fonts/bignoodletoo.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "futura";
+  src: local("FuturaBQ-DemiBold"), url(./assets/fonts/FuturaBQ-DemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "config-regular";
+  src: local("config-regular-webfont.ttf"), url(./assets/fonts/config-regular-webfont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "config-bold";
+  src: local("config-bold-webfont.ttf"), url(./assets/fonts/config-bold-webfont.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "config-bold";
+  color: rgb(20, 20, 20);
+  cursor: url(./assets/images/cursor.png) !important;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+
+
+:root {
+  --clr-orange: #DD6623;
+  --clr-gray: #363536;
+}
+
+body {
+  background: url("./assets/images/background.jpg");
+  background-attachment: fixed;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
 }

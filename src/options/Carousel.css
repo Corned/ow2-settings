@@ -1,0 +1,30 @@
+
+
+.option-carousel {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.option-carousel > * {
+  margin: auto 0;
+}
+
+.option-carousel__value {
+  font-family: "config-bold";
+}
+
+.option-carousel__button {
+  background: transparent;
+  display: flex;
+}
+
+.option-carousel__button > img {
+  filter: contrast(0.35);
+}
+
+.option-carousel__button > img:hover {
+  filter: contrast(0.6);
+}

@@ -1,0 +1,32 @@
+
+
+
+.dropdownmenu {
+  height: 40px;
+  width: 320px;
+  margin: 0 0 0 3px;
+}
+
+.dropdownmenu--toggle {
+  background: transparent;
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+}
+
+.dropdownmenu--value {
+  margin: auto 0;
+  font-family: "config-bold";
+  font-size: 16px;
+  font-weight: 900;
+  background: transparent;
+}
+
+.dropdownmenu--icon {
+  margin: auto 0;
+  filter: contrast(0.35);
+}

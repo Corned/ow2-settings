@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 85px 0;
+}
+
+.nav-button {
+  height: 55px;
+  padding: 0 20px;
+  background: var(--clr-gray);
+  border: 0;
+  border-radius: 3px;
+  transition: box-shadow 0.01s linear;
+  margin-right: 5px;
+}
+
+.nav-button > p {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(250, 250, 250);
+  margin: auto 0;
+}
+
+.nav-button:hover {
+  background: #212022;
+  box-shadow: 0 0 0 2px #212022;
+}
+
+.nav-button.selected {
+  background: var(--clr-orange);
+}
+
+.nav-button.selected:hover {
+  box-shadow: 0 0 0 2px var(--clr-orange);
+}
